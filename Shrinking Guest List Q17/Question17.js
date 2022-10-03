@@ -8,3 +8,22 @@
 
 // • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 
+const guestList = ["Umair","Akif","Waqas","Hamza","Talha","Irfan","Ziyad","Irfan"];
+console.log("All are listen to me. I am invite only two people for dinner.")
+
+let loopLenght = guestList.length -2;
+for(let i = 0 ; loopLenght<=loopLenght;i++){
+    console.log("sorry i can’t invite them to dinner.")
+    guestList.pop()
+};
+
+
+for(let i in guestList){
+    console.log(`${guestList[i]} still invited `)
+}
+
+for(let i in guestList){
+    guestList.pop();
+}
+
+console.log("Clear List",guestList);
