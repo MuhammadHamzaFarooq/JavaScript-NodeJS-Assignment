@@ -6,3 +6,23 @@
 // • Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 
 // • Print a second set of invitation messages, one for each person who is still in your list.
+
+const guestList = ["hamza", "irfan", "ali", "rafay"];
+
+for (let i in guestList) {
+    console.log(`${guestList[i]} is inviting them to dinner`);
+}
+
+//ali unfortunately not coming for dinner today.
+//Change the guest
+
+guestList[2] = "Ziayd" // ziyad is the new gest
+
+for (let i in guestList) {
+    if (guestList[i] === "Ziayd") {
+        console.log(`${guestList[i]} is inviting them to dinner`);
+    }
+}
+
+
+
