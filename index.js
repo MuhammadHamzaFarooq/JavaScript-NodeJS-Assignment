@@ -20,6 +20,7 @@ console.log("Name is converted into LowerCase ", Name);
 //Question 03
 //Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
 
+console.log(`Albert Einstein once said, “A person who never made a mistake never tried anything new.” `);
 
 //Question 04
 //Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
@@ -146,30 +147,30 @@ for (let i = 0; i <= GuestList.length; i++) {
 
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
-let places = ["London","france","Dubai","Canada","Qatar","Australia","Newzeland"];
+let places = ["London", "france", "Dubai", "Canada", "Qatar", "Australia", "Newzeland"];
 
-for(i in places){
+for (i in places) {
     console.log(places[i]);
 }
 
 
-for(i in places.sort()){
+for (i in places.sort()) {
     console.log(places[i]);
 }
 
-for(i in places.reverse()){
+for (i in places.reverse()) {
     console.log(places[i]);
 }
 
-for(i in places){
+for (i in places) {
     console.log(places[i]);
 }
 
-for(i in places.reverse()){
+for (i in places.reverse()) {
     console.log(places[i]);
 }
 
-for(i in places.sort()){
+for (i in places.sort()) {
     console.log(places[i]);
 }
 
@@ -182,27 +183,27 @@ for(i in places.sort()){
 //Question18
 //Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
 
-const countriesList = ["India","Pakistan","Srilanka","Iran","Australia"];
-const mountainsList = ["k2","Mount Everest","Nanga Parbat","Kangchenjunga","Denali","Mount Kilimanjaro","Lhotse"];
-const Language = ["English","Urdu","Hindhi","Garman","French"];
-const cities =["Karachi","Lahore","Multan","Islamabad"];
+const countriesList = ["India", "Pakistan", "Srilanka", "Iran", "Australia"];
+const mountainsList = ["k2", "Mount Everest", "Nanga Parbat", "Kangchenjunga", "Denali", "Mount Kilimanjaro", "Lhotse"];
+const Language = ["English", "Urdu", "Hindhi", "Garman", "French"];
+const cities = ["Karachi", "Lahore", "Multan", "Islamabad"];
 
 //Question 19 
 // They think of something you could store in a JavaScript Object. Write a program that creates Objects containing these items.
 
-let user  = {
-    name:"Muhammad Hamza Farooq",
-    email:"mhamza2021999@gamil.com",
-    city:"karachi",
-    phone_number : 03240243207,
-    gender:"male",
-    designation:"Backend And AI Chatbot Developer"
+let user = {
+    name: "Muhammad Hamza Farooq",
+    email: "mhamza2021999@gamil.com",
+    city: "karachi",
+    phone_number: 03240243207,
+    gender: "male",
+    designation: "Backend And AI Chatbot Developer"
 }
 
 //Question 20
 // Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
 
-let dummyArray  = ["Karachi","Lahore","Islamabad"];
+let dummyArray = ["Karachi", "Lahore", "Islamabad"];
 console.log("Error => ".dummyArray[3]);
 
 
