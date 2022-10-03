@@ -7,7 +7,8 @@
 const users = ["Admin", "Ali", "Sufyan", "Irfan", "Ziyad"];
 
 if (users.length === 0) {
-    return console.log(" We need to find some users")
+    console.log(" We need to find some users");
+    return;
 }
 
 for (let i in users) {
