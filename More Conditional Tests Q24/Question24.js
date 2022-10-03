@@ -11,3 +11,20 @@
 // • Test whether an item is in a array
 
 // • Test whether an item is not in a array
+
+console.log("5" === 5)//false
+console.log(5 === 5 || 4 == '4')//true
+console.log(5 === 5 && 4 == '4')//false
+console.log(5 !== 5 && 3 == 3)//false
+console.log(5 !== 5 || 3 == 3)//true
+console.log(3 * 4 === 2 * 7 && 3 * 4 === 12)//false
+console.log(3 * 4 === 2 * 7 || 3 * 4 === 12)//true
+console.log(true !== false)//true
+console.log(true === false)//false
+console.log(!ture)//false
+console.log(!false)//true
+let arr = [1, 30, 49];
+
+console.log(arr.length < 0)//false  // is not arry
+console.log(arr.length >= 0)//ture
+

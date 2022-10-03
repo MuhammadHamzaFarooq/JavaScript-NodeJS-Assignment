@@ -20,3 +20,31 @@
 
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
+
+const location = ["Landon", "istanbul", "Dubai", "sydney", "brazil"];
+
+for (let i in location) {
+    console.log(location[i]);
+}
+
+function alphabeticalOrder(arr) {
+    return arr.sort((a, b) => a < b ? -1 : 1)
+}
+
+let sortedArray = alphabeticalOrder(location);
+
+console.log("Original List ", sortedArray);
+
+console.log("Order Has been Changed ", sortedArray.reverse());
+
+console.log("Original List ", sortedArray);
+
+console.log("Order Has been Changed ", sortedArray.reverse());
+
+console.log("Order Has been Changed ", sortedArray.reverse());
+
+let sortedList = alphabeticalOrder(sortedArray);
+
+console.log("Sorted List ", sortedList);
+
+console.log("order has changed".sortedList.reverse())
