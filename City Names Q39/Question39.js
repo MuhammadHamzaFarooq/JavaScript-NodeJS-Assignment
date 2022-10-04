@@ -4,3 +4,9 @@
 // "Lahore, Pakistan"
 
 // Call your function with at least three city-country pairs, and print the value that’s returned.
+
+const city_country = (city,country)=>{
+  return `${city} is very beautiful city in ${country}`
+}
+
+console.log(city_country("Islamabad","Pakistan"));
